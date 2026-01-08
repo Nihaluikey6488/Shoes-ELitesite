@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: libra;
+  src: url(./Pin-Sans-MacOS-Regular-708c49dd\ \(5\).woff2);
+}
+@font-face {
+  font-family: hell;
+  src: url(./HelveticaNowDisplayMedium.woff2);
+}
+@font-face {
+  font-family: helvet;
+  src: url(./HelveticaNowTextMedium.woff2);
+}
+
+
+#slider::-webkit-scrollbar{
+  display: none;
+
+}
+
+#slider{
+  transition: 1s ease linear;
+}
+#men-cards img {
+  transition: transform 0.4s ease;
+}
+
+#men-cards:hover img {
+  transform: scale(1.1);
+}
+
+#slider-div::-webkit-scrollbar{
+  display: none;
+
+}
+body::-webkit-scrollbar{
+  display: none;
+
+}
